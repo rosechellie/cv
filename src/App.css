@@ -1,10 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 17px;
+  }
+}
+
+
+/* body {
+  font-family: 'Josefin Sans', cursive;
+} */
+
+/* added by myself? */
 .App {
-  text-align: center;
+  /* text-align: center; */
+  min-height: 100vmin;
+  color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.dark {
+  /* background-color: #333; */
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+.light {
+  /* background-color: #ffeaf7; */
+  background-color: rgb(236, 189, 196);
+  color: #000000 !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +50,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
@@ -32,6 +69,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.font-main-header {
+  font-size: 3em;
+  font-weight: 600;
+  /* font-family: 'Carter One'; */
+}
+
+.font-header-1 {
+  font-size: 2em;
+  font-weight: 600;
+  /* font-family: 'Carter One'; */
+}
+
+.font-header-2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  /* font-family: 'Carter One'; */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+
+  font-weight: bold;
+
+}
+
+label {
+  /* color: white; */
+}
+
+.center-div {
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+}
+
+.navi {
+  position: fixed !important;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main-brochure {
+    max-width: 960px;
+  }
+}
